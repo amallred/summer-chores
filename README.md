@@ -50,3 +50,8 @@ The time to complete each chore is an arbitrarily selected value for the purpose
 
 ### Takeaways / Challenges: 
 - The biggest challenge was once again how to pass the name down the line of promise functions. I solved this by shortening the `.then` statements considerably, which overall simplified the whole structure while passing the variable.
+
+## Project Three: Async and Await
+
+### Takeaways / Challenges:
+- This was much easier to set up than the other two. Especially having the name variable encapsulated in the overall `doSummerChores` function. It makes me wonder if I could have structured the other two with that being the 'outer' function to begin with. 
