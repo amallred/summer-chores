@@ -1,6 +1,15 @@
 # Summer Chores
 
-## Exercise Description
+## Project 1 | ~~(Callback Hell!)~~ Callback Assignment 
+
+## Takeaways / Challenges:
+- Passing variables down the line of callbacks was tricky to solve and required a lot of guess and check. This seems like a clunky way to pass variables and I'd be interested to learn a more efficient way to do this.
+- The solution to simulate the function timing out was a bit challenging as well. I ended up implementing a random number generator and tying it to a totalTime variable which affected each level of the callback pyramid.
+
+### Notes to run this program
+You will need to have node js installed to run this program on your computer.
+
+### Exercise Description
 
 Someone has a list of summer chores they have to do every Saturday. There are a lot of chores for them to do and naturally get more tired throughout completing their tasks. If they get too tired, they may fall asleep before completing all their chores.
 
@@ -14,11 +23,11 @@ They have a strict routine, which follows in order:
 
 If they manage not to get tired and fall asleep while doing their chores, they have successfully completed their chores. Also, there's never a chance of the person falling asleep before mowing the yard.
 
-## Requirements and Information
+### Requirements and Information
 
 The time to complete each chore is an arbitrarily selected value for the purpose of the exercise. They are the following:
 
-### Time to Complete Chores
+#### Time to Complete Chores
 | Chore	| Time to Complete (milliseconds) |
 | ----------- | ----------- |
 | Time to mow the yard. |	2000 |
@@ -27,7 +36,7 @@ The time to complete each chore is an arbitrarily selected value for the purpose
 | Time to collect wood. |	2500 |
 | Time to water the garden. |	500 |
 
-### Required Functions
+#### Required Functions
 | Function Name | Description |
 | ----------- | ----------- |
 | mowYard	A function that will take in a person's name and a callback function. When the chore is complete, log "PERSON'S NAME mowed the yard." to the console.
