@@ -45,3 +45,8 @@ The time to complete each chore is an arbitrarily selected value for the purpose
 | collectWood |	A function that will take in a person's name and a callback function. If the chore is completed, log "PERSON'S NAME finished collecting wood." to the console and call the next callback function. Otherwise, log "PERSON'S NAME fell asleep after trimming the hedges." to the console.|
 | waterGarden |	A function that will take in a person's name and a callback function. If the chore is completed, log "PERSON'S NAME finished watering the garden." to the console and call the next callback function. Otherwise, log "PERSON'S NAME fell asleep after collecting wood." to the console.|
 | doSummerChores |	A function that will take in a person's name as an argument. The name passed in must be a string literal. This method will call the mowYard function, essentially wrapping your "callback hell." If all the chores are completed successfully, the function should log "PERSON'S NAME finished all their chores!"|
+
+## Project Two: Promise Version
+
+### Takeaways / Challenges: 
+- The biggest challenge was once again how to pass the name down the line of promise functions. I solved this by shortening the `.then` statements considerably, which overall simplified the whole structure while passing the variable.

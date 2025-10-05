@@ -29,7 +29,7 @@ function mowYard (name, callback){
 
 function weedEat(name, callback){
     setTimeout(() => {
-        if(totalTime > 0){
+        if(totalTime > 1500){
             console.log(`${name} finished using the weed eater.`);
             totalTime -= 1500;
             // console.log(totalTime);
@@ -41,7 +41,7 @@ function weedEat(name, callback){
 
 function trimHedges(name, callback){
     setTimeout(() => {
-        if (totalTime > 0){
+        if (totalTime > 1000){
             console.log(`${name} finished trimming the hedges.`);
             callback(name);
             totalTime -= 1000;
@@ -54,7 +54,7 @@ function trimHedges(name, callback){
 
 function collectWood(name, callback){
     setTimeout(() => { 
-        if(totalTime >0){
+        if(totalTime > 2500){
             console.log(`${name} finished collecting wood.`);
             callback(name);
             totalTime -= 2500;
@@ -67,7 +67,7 @@ function collectWood(name, callback){
 
 function waterGarden(name, callback){
     setTimeout(() => {
-        if(totalTime > 0){
+        if(totalTime > 500){
             console.log(`${name} finished watering the garden.`);
             callback(name);
             totalTime -= 500;
